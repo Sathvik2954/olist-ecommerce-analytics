@@ -4,7 +4,7 @@ This guide helps you set up the Olist E-Commerce analytics dashboard in Power BI
 
 ---
 
-## 🔌 1. Data Connection
+## 1. Data Connection
 
 1. Open **Power BI Desktop**.
 2. Click **Get Data** → **MySQL database**.
@@ -21,7 +21,7 @@ This guide helps you set up the Olist E-Commerce analytics dashboard in Power BI
 
 ---
 
-## 📐 2. Data Model & Relationships
+## 2. Data Model & Relationships
 
 Open the **Model view** (diagram icon on the left sidebar) and verify or manually build the following relationships:
 
@@ -37,7 +37,7 @@ Open the **Model view** (diagram icon on the left sidebar) and verify or manuall
 
 ---
 
-## 🧮 3. DAX Calculated Columns
+## 3. DAX Calculated Columns
 
 In the **Data view**, select the `'olist_db orders'` table and create these new calculated columns:
 
@@ -73,7 +73,7 @@ IF(
 
 ---
 
-## 📊 4. DAX Measures
+## 4. DAX Measures
 
 Select the `'olist_db orders'` table and click **New Measure** in the top ribbon to create the following 6 measures:
 
@@ -134,11 +134,11 @@ DIVIDE(RepeatCustomers, TotalCustomers) * 100
 
 ---
 
-## 🎨 5. Visualizations Design & Layout (Step-by-Step)
+## 5. Visualizations Design & Layout (Step-by-Step)
 
 Open the **Report view** (chart icon on the far left sidebar) to begin building your pages. Rename your tabs at the bottom by double-clicking them.
 
-### 📄 PAGE 1: Business Overview
+### PAGE 1: Business Overview
 Rename this tab to **Business Overview**.
 
 #### Visual 1: KPI Cards (Top Row)
@@ -182,7 +182,7 @@ Rename this tab to **Business Overview**.
 
 ---
 
-### 📄 PAGE 2: Delivery & Satisfaction
+### PAGE 2: Delivery & Satisfaction
 Click the `+` button at the bottom of the screen to create a new tab. Rename it to **Delivery & Satisfaction**.
 
 #### Visual 1: Review Score by Delivery Status Bar Chart
@@ -218,7 +218,7 @@ Click the `+` button at the bottom of the screen to create a new tab. Rename it 
 
 ---
 
-### 📄 PAGE 3: Customers & Sellers
+### PAGE 3: Customers & Sellers
 Click the `+` button at the bottom to add a third tab. Rename it to **Customers & Sellers**.
 
 #### Visual 1: Repeat Purchase Rate Card
@@ -256,7 +256,7 @@ Click the `+` button at the bottom to add a third tab. Rename it to **Customers 
 
 ---
 
-## 💾 6. Save & Export Screenshots
+## 6. Save & Export Screenshots
 
 ### Step 1: Save the Dashboard File
 - Click **File** → **Save As**.
